@@ -1,0 +1,113 @@
+=============================================================
+CALVIN COLLEGE WEBSITE - SETUP GUIDE
+=============================================================
+
+🎉 Congratulations! Your professional website is ready!
+
+📁 FOLDER STRUCTURE
+-------------------
+calvin-college-website/
+├── index.html (Homepage)
+├── about.html
+├── academics.html
+├── admissions.html
+├── student-life.html
+├── gallery.html
+├── news.html
+├── contact.html
+├── README.md (Full documentation)
+├── css/ (Stylesheets)
+├── js/ (JavaScript)
+├── images/ (Logo and photos)
+└── documents/ (Fee schedules PDFs)
+
+🚀 QUICK START
+--------------
+1. Download the entire "calvin-college-website" folder
+2. Open index.html in any web browser to preview
+3. Upload all files to your web hosting when ready to go live
+
+💻 LOCAL TESTING
+----------------
+Simply double-click index.html to open in your browser.
+All pages will work locally - no server needed!
+
+🌐 TO GO LIVE
+-------------
+1. Get web hosting (e.g., Afrihost, Xneelo, Hetzner, etc.)
+2. Upload ALL files keeping the folder structure
+3. Your site will be live at your domain!
+
+✏️ CUSTOMIZATION
+----------------
+1. UPDATE IMAGES:
+   - Replace images/calvin_logo.webp with your logo
+   - Add real school photos to images/ folder
+   - Update gallery.html to show your photos
+
+2. UPDATE CONTENT:
+   - Edit any .html file in a text editor (Notepad, VS Code, etc.)
+   - Look for text between > and < tags
+   - Save and refresh browser to see changes
+
+3. UPDATE COLORS:
+   - Open css/style.css
+   - Find ":root" section at the top
+   - Change color values (currently green & yellow)
+
+📸 ADDING REAL PHOTOS
+--------------------
+1. Save photos in images/ folder
+2. In HTML files, change:
+   <div class="image-placeholder">
+   TO:
+   <img src="images/your-photo.jpg" alt="Description">
+
+📧 CONTACT FORM
+---------------
+The contact form currently shows an alert.
+To make it send emails, you'll need:
+1. A form service (FormSpree, Netlify Forms, etc.)
+2. Update the form action in contact.html
+
+📱 FEATURES INCLUDED
+-------------------
+✅ Fully responsive (mobile, tablet, desktop)
+✅ Professional animations
+✅ Mobile hamburger menu
+✅ Contact form with validation
+✅ Downloadable fee schedules
+✅ Google Maps integration
+✅ SEO optimized
+✅ Fast loading
+✅ Clean, modern design
+
+🎨 DESIGN COLORS
+----------------
+Primary Green: #2D5016
+Primary Yellow: #F4D03F
+Accent Red: #C0392B
+
+💡 TIPS
+-------
+- Add real photos to make site more engaging
+- Update News page regularly
+- Keep contact info current
+- Test on mobile devices
+- Consider adding parent portal later
+
+📞 SUPPORT
+----------
+For questions about the website code:
+- Read README.md for detailed documentation
+- Each HTML file is well-commented
+- CSS is organized by sections
+
+For Calvin College inquiries:
+Phone: (013) 231 7643
+Email: principal@calvin.co.za
+
+=============================================================
+Naviter, Simpliciter, Parce
+Excellence in Education Since 1998
+=============================================================
