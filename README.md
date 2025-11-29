@@ -66,21 +66,6 @@ calvin-college-website/
 7. **News & Events** - Latest news and announcements
 8. **Contact** - Contact information, department emails, contact form, Google Maps
 
-## 🚀 How to Use
-
-1. **Upload to Web Hosting:**
-   - Upload all files to your web hosting service
-   - Maintain the folder structure
-
-2. **Update Content:**
-   - Edit HTML files to update text content
-   - Replace placeholder images in `/images` folder with actual school photos
-   - Update news and events in `news.html`
-
-3. **Customize:**
-   - Modify colors in `css/style.css` (search for color variables)
-   - Add more pages by duplicating existing HTML files
-   - Update contact form action to connect to your email service
 
 ## 📧 Contact Information
 
@@ -93,7 +78,7 @@ Limpopo, South Africa
 **Cell:** 081 222 7700  
 **Email:** principal@calvin.co.za
 
-**GPS Coordinates:** -24.666162, 30.310843
+
 
 ## 🔑 Key Contacts
 
@@ -110,28 +95,9 @@ Limpopo, South Africa
 - **EMIS:** 996602403
 - **Company Registration:** 2001/024599/08
 
-## 💡 Future Enhancements
-
-- Add actual school photos to gallery
-- Integrate blog/news management system
-- Add online application form functionality
-- Create parent portal login area
-- Add school calendar with events
-- Integrate social media feeds
-- Add video content section
-- Create alumni section
-
-## 🛠️ Technical Details
-
-- Pure HTML5, CSS3, JavaScript (no frameworks required)
-- Font Awesome icons (CDN)
-- Google Fonts (Playfair Display, Roboto)
-- Mobile-first responsive design
-- Cross-browser compatible
-- Fast loading times
-- SEO optimized
 
 ## 📄 License
+Designed for Calvin College
 
 Created for Calvin College. All rights reserved © 2024
 
