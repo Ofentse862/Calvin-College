@@ -97,7 +97,6 @@ Limpopo, South Africa
 
 
 ## 📄 License
-Designed for Calvin College
 
 Created for Calvin College. All rights reserved © 2024
 
