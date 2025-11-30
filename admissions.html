@@ -166,10 +166,17 @@
                     <h4>Contact Info</h4>
                     <ul class="contact-list">
                         <li><i class="fas fa-map-marker-alt"></i> Section 8, Farm Leeuw Vallei, Burgersfort 1150</li>
-                        <li><i class="fas fa-phone"></i> (013) 231 7643</li>
-                        <li><i class="fas fa-mobile-alt"></i> 081 222 7700</li>
-                        <li><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="89f9fbe0e7eae0f9e8e5c9eae8e5ffe0e7a7eae6a7f3e8">[email&#160;protected]</a></li>
-                    </ul>
+                        <li>
+  <i class="fas fa-phone"></i>
+  <a href="tel:0132317643">(013) 231 7643</a>
+</li>
+
+<li>
+  <i class="fas fa-mobile-alt"></i>
+  <a href="tel:0812227700">081 222 7700</a>
+</li>
+
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:principal@calvin.co.za">principal@calvin.co.za</a>
                 </div>
                 <div class="footer-col">
                     <h4>Accreditation</h4>
@@ -179,49 +186,36 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Calvin College Independent School. All rights reserved.</p>
+                <p>&copy; 2026 Calvin College Independent School. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Applications Closed Popup Modal -->
-    <div id="admissionsModal" class="modal">
-        <div class="modal-content">
-            <span class="modal-close">&times;</span>
-            <div class="modal-icon">
-                <i class="fas fa-info-circle"></i>
-            </div>
-            <h2>Applications Currently Closed</h2>
-            <p>Thank you for your interest in Calvin College Independent School.</p>
-            <p><strong>Applications for 2026 registration are currently closed.</strong></p>
-            <p>Please check back later for updates on when applications will reopen, or contact our admissions office for more information.</p>
-            <div class="modal-contact">
-                <p><i class="fas fa-phone"></i> (013) 231 7643</p>
-                <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f484869d9a979d849598b4979598829d9ada979bda8e95">[email&#160;protected]</a></p>
-            </div>
-            <button class="modal-btn" onclick="closeAdmissionsModal()">Understood</button>
-        </div>
-    </div>
-
     <!-- Back to Top Button -->
-    <button id="backToTop" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/script.js"></script>
-    <script>
-        // Show admissions modal on page load
-        window.addEventListener('load', function() {
-            document.getElementById('admissionsModal').style.display = 'block';
-        });
+<script src="js/script.js"></script>
+<script>
+    // Show admissions modal on page load
+    window.addEventListener('load', function() {
+        document.getElementById('admissionsModal').style.display = 'block';
+    });
 
-        // Close modal function
-        function closeAdmissionsModal() {
-            document.getElementById('admissionsModal').style.display = 'none';
+    // Close modal function
+    function closeAdmissionsModal() {
+        document.getElementById('admissionsModal').style.display = 'none';
+    }
+
+    // Close modal when clicking X
+    document.querySelector('.modal-close').addEventListener('click', closeAdmissionsModal);
+
+    // Close modal when clicking outside the modal-content box
+    window.addEventListener('click', function(event) {
+        const modal = document.getElementById('admissionsModal');
+        if (event.target === modal) {
+            closeAdmissionsModal();
         }
-
-        // Close modal when clicking X
-        document.querySelector('.modal-close').addEventListener('click', closeAdmissionsModal);
-
-        // Close modal when clicking outside
-        window.addEventListener('c
+    });
+</script>
